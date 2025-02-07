@@ -69,12 +69,16 @@
         <mybatis.version>3.0.4</mybatis.version>
 
         <druid.version>1.2.23</druid.version>
+
         <mapstruct.version>1.6.2</mapstruct.version>
+        <lombok.version>1.18.36</lombok.version>
+        <lombok-mapstruct-binding.version>0.2.0</lombok-mapstruct-binding.version>
 
         <redis.version>3.3.1</redis.version>
         <cache.version>3.3.1</cache.version>
     </properties>
 
+    <!--这里统一管理依赖的版本号-->
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -102,7 +106,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
-            <scope>annotationProcessor</scope>
+            <scope>compile</scope>
         </dependency>
 
         <dependency>
@@ -110,31 +114,12 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!--屏蔽热重载，因为联调阶段修改代码会影响前端的测试-->
+        <!--屏蔽热重载，因为联调阶段修改代码会影响前端的测试
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <scope>runtime</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <scope>annotationProcessor</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.mybatis.spring.boot</groupId>
-            <artifactId>mybatis-spring-boot-starter</artifactId>
-            <version>${mybatis.version}</version>
-            <exclusions>
-                <!-- https://mp.weixin.qq.com/s/S2dFOXlLQpL8fitc4rrUVw -->
-                <!-- 排除默认的 HikariCP 数据源 -->
-                <exclusion>
-                    <groupId>com.zaxxer</groupId>
-                    <artifactId>HikariCP</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
+        </dependency>-->
 
         <!--查看各种需要的组件的最新版本
         https://mvnrepository.com/search?q=springdoc-openapi-starter-webmvc-ui-->
@@ -148,23 +133,6 @@
             <groupId>org.mapstruct</groupId>
             <artifactId>mapstruct-processor</artifactId>
             <version>${mapstruct.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>dynamic-datasource-spring-boot3-starter</artifactId>
-            <version>${dynamic-datasource.version}</version>
-        </dependency>-->
-
-        <!-- druid数据库连接池
-            https://www.iocoder.cn/Spring-Boot/datasource-pool/?yudao
-            https://github.com/alibaba/druid/tree/master/druid-spring-boot-3-starter
-	        https://github.com/alibaba/druid/blob/master/druid-spring-boot-3-starter/src/test/resources/application-multi-datasource.properties
-        -->
-        <!--<dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>druid-spring-boot-3-starter</artifactId>
-            <version>${druid.version}</version>
         </dependency>-->
 
         <!-- redis https://cloud.tencent.com/developer/article/1975743 -->
@@ -193,12 +161,6 @@
             <artifactId>springdoc-openapi-starter-webmvc-api</artifactId>
             <version>2.6.0</version>
         </dependency>-->
-        <dependency>
-            <groupId>org.springdoc</groupId>
-            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
-            <version>${springdoc.version}</version>
-        </dependency>
-
         <!--<dependency>
             <groupId>io.minio</groupId>
             <artifactId>minio</artifactId>
@@ -228,16 +190,6 @@
             <version>${commons-io.version}</version>
         </dependency>-->
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-        <finalName>${project.groupId}.${project.artifactId}-[${activated}-jdk${java.version}]-${project.version}-${build.time}</finalName>
-    </build>
 
     <!-- 使用 huawei / aliyun 的 Maven 源，提升下载速度 -->
     <repositories>

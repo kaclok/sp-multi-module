@@ -1,0 +1,54 @@
+2025-02-07T08:09:04.533+08:00  INFO 45528 --- [mm[dev]:8092] [main] c.s.launcher.LauncherApplicationTests    : Starting LauncherApplicationTests using Java 22.0.1 with PID 45528 (started by DELL in F:\Projects\Study\github\sp-multi-module\backend\launcher)
+2025-02-07T08:09:04.685+08:00  INFO 45528 --- [mm[dev]:8092] [main] c.s.launcher.LauncherApplicationTests    : The following 1 profile is active: "dev"
+2025-02-07T08:09:04.743+08:00 TRACE 45528 --- [mm[dev]:8092] [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4ebadd3d, started on Fri Feb 07 08:09:04 CST 2025
+2025-02-07T08:09:05.202+08:00 TRACE 45528 --- [mm[dev]:8092] [main] o.s.w.c.s.GenericWebApplicationContext   : No 'messageSource' bean, using [Empty MessageSource]
+2025-02-07T08:09:05.205+08:00 TRACE 45528 --- [mm[dev]:8092] [main] o.s.w.c.s.GenericWebApplicationContext   : No 'applicationEventMulticaster' bean, using [SimpleApplicationEventMulticaster]
+2025-02-07T08:09:05.299+08:00 TRACE 45528 --- [mm[dev]:8092] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-02-07T08:09:05.305+08:00 DEBUG 45528 --- [mm[dev]:8092] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2025-02-07T08:09:05.322+08:00 DEBUG 45528 --- [mm[dev]:8092] [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2025-02-07T08:09:05.336+08:00 TRACE 45528 --- [mm[dev]:8092] [main] o.s.w.s.f.support.RouterFunctionMapping  : 0 RouterFunction(s) in 'routerFunctionMapping'
+2025-02-07T08:09:05.377+08:00 DEBUG 45528 --- [mm[dev]:8092] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-07T08:09:05.432+08:00 DEBUG 45528 --- [mm[dev]:8092] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-07T08:09:05.829+08:00 TRACE 45528 --- [mm[dev]:8092] [main] o.s.w.c.s.GenericWebApplicationContext   : Using LifecycleProcessor [org.springframework.context.support.DefaultLifecycleProcessor@3c952a33]
+2025-02-07T08:09:05.849+08:00 TRACE 45528 --- [mm[dev]:8092] [main] o.s.w.s.resource.ResourceUrlProvider     : No resource handling mappings found
+2025-02-07T08:09:05.849+08:00  INFO 45528 --- [mm[dev]:8092] [main] c.s.launcher.LauncherApplicationTests    : Started LauncherApplicationTests in 1.624 seconds (process running for 2.739)
+2025-02-07T08:09:06.965+08:00 DEBUG 45528 --- [mm[dev]:8092] [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@4ebadd3d, started on Fri Feb 07 08:09:04 CST 2025
+2025-02-07T08:10:10.158+08:00  INFO 53096 --- [mm[dev]:8092] [main] c.s.launcher.LauncherApplicationTests    : Starting LauncherApplicationTests using Java 22.0.1 with PID 53096 (started by DELL in F:\Projects\Study\github\sp-multi-module\backend\launcher)
+2025-02-07T08:10:10.211+08:00  INFO 53096 --- [mm[dev]:8092] [main] c.s.launcher.LauncherApplicationTests    : The following 1 profile is active: "dev"
+2025-02-07T08:10:10.258+08:00 TRACE 53096 --- [mm[dev]:8092] [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@286b39c2, started on Fri Feb 07 08:10:10 CST 2025
+2025-02-07T08:10:10.788+08:00 TRACE 53096 --- [mm[dev]:8092] [main] o.s.w.c.s.GenericWebApplicationContext   : No 'messageSource' bean, using [Empty MessageSource]
+2025-02-07T08:10:10.788+08:00 TRACE 53096 --- [mm[dev]:8092] [main] o.s.w.c.s.GenericWebApplicationContext   : No 'applicationEventMulticaster' bean, using [SimpleApplicationEventMulticaster]
+2025-02-07T08:10:10.884+08:00 TRACE 53096 --- [mm[dev]:8092] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-02-07T08:10:10.892+08:00 DEBUG 53096 --- [mm[dev]:8092] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2025-02-07T08:10:10.906+08:00 DEBUG 53096 --- [mm[dev]:8092] [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2025-02-07T08:10:10.916+08:00 TRACE 53096 --- [mm[dev]:8092] [main] o.s.w.s.f.support.RouterFunctionMapping  : 0 RouterFunction(s) in 'routerFunctionMapping'
+2025-02-07T08:10:10.958+08:00 DEBUG 53096 --- [mm[dev]:8092] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-07T08:10:11.013+08:00 DEBUG 53096 --- [mm[dev]:8092] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-07T08:10:11.427+08:00 TRACE 53096 --- [mm[dev]:8092] [main] o.s.w.c.s.GenericWebApplicationContext   : Using LifecycleProcessor [org.springframework.context.support.DefaultLifecycleProcessor@4dcbae55]
+2025-02-07T08:10:11.447+08:00 TRACE 53096 --- [mm[dev]:8092] [main] o.s.w.s.resource.ResourceUrlProvider     : No resource handling mappings found
+2025-02-07T08:10:11.447+08:00  INFO 53096 --- [mm[dev]:8092] [main] c.s.launcher.LauncherApplicationTests    : Started LauncherApplicationTests in 1.6 seconds (process running for 2.298)
+2025-02-07T08:10:13.033+08:00 DEBUG 53096 --- [mm[dev]:8092] [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@286b39c2, started on Fri Feb 07 08:10:10 CST 2025
+2025-02-07T08:10:31.684+08:00  INFO 16256 --- [mm[dev]:8092] [main] c.s.launcher.LauncherApplicationTests    : Starting LauncherApplicationTests using Java 22.0.1 with PID 16256 (started by DELL in F:\Projects\Study\github\sp-multi-module\backend\launcher)
+2025-02-07T08:10:31.739+08:00  INFO 16256 --- [mm[dev]:8092] [main] c.s.launcher.LauncherApplicationTests    : The following 1 profile is active: "dev"
+2025-02-07T08:10:31.785+08:00 TRACE 16256 --- [mm[dev]:8092] [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@286b39c2, started on Fri Feb 07 08:10:31 CST 2025
+2025-02-07T08:10:32.301+08:00 TRACE 16256 --- [mm[dev]:8092] [main] o.s.w.c.s.GenericWebApplicationContext   : No 'messageSource' bean, using [Empty MessageSource]
+2025-02-07T08:10:32.301+08:00 TRACE 16256 --- [mm[dev]:8092] [main] o.s.w.c.s.GenericWebApplicationContext   : No 'applicationEventMulticaster' bean, using [SimpleApplicationEventMulticaster]
+2025-02-07T08:10:32.391+08:00 TRACE 16256 --- [mm[dev]:8092] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-02-07T08:10:32.397+08:00 DEBUG 16256 --- [mm[dev]:8092] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2025-02-07T08:10:32.414+08:00 DEBUG 16256 --- [mm[dev]:8092] [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2025-02-07T08:10:32.478+08:00 TRACE 16256 --- [mm[dev]:8092] [main] o.s.w.s.f.support.RouterFunctionMapping  : 0 RouterFunction(s) in 'routerFunctionMapping'
+2025-02-07T08:10:32.522+08:00 DEBUG 16256 --- [mm[dev]:8092] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-07T08:10:32.566+08:00 DEBUG 16256 --- [mm[dev]:8092] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-07T08:10:32.965+08:00 TRACE 16256 --- [mm[dev]:8092] [main] o.s.w.c.s.GenericWebApplicationContext   : Using LifecycleProcessor [org.springframework.context.support.DefaultLifecycleProcessor@1903b5d]
+2025-02-07T08:10:32.987+08:00 TRACE 16256 --- [mm[dev]:8092] [main] o.s.w.s.resource.ResourceUrlProvider     : No resource handling mappings found
+2025-02-07T08:10:32.987+08:00  INFO 16256 --- [mm[dev]:8092] [main] c.s.launcher.LauncherApplicationTests    : Started LauncherApplicationTests in 1.61 seconds (process running for 2.29)
+2025-02-07T08:10:33.734+08:00 DEBUG 16256 --- [mm[dev]:8092] [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@286b39c2, started on Fri Feb 07 08:10:31 CST 2025
